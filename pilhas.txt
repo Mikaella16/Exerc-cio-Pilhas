@@ -1,0 +1,22 @@
+Def verificar_parenteses(string):
+
+ “””
+
+ Verifica se os parênteses em uma string estão balanceados.
+ Argumentos:
+ String (str): A string contendo os parênteses.
+ Retorno:
+
+ Bool: True se os parênteses estiverem balanceados, False caso contrário.
+
+ “””
+ # Sua implementação aqui
+ Pass
+String1 = “(a + b) * (c – d)” # Parênteses balanceados
+String2 = “((a + b) * (c – d))” # Parênteses balanceados
+String3 = “(a + b) * (c - )” # Parênteses não balanceados
+String4 = “a + b) * (c – d” # Parênteses não balanceados
+Print(verificar_parenteses(string1)) # Resultado esperado: True
+Print(verificar_parenteses(string2)) # Resultado esperado: True
+Print(verificar_parenteses(string3)) # Resultado esperado: False
+Print(verificar_parenteses(string4)) # Resultado esperado: False
